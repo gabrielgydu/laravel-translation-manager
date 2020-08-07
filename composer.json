@@ -7,16 +7,16 @@
         {
             "name": "Barry vd. Heuvel",
             "email": "barryvdh@gmail.com"
-        },        
+        },
         {
             "name": "HighSolutions",
             "email": "adam@highsolutions.pl"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/console": "5.*|6.*",
-        "illuminate/support": "5.*|6.*",
+        "php": ">=7",
+        "illuminate/console": "5.*|6.*|^7.0",
+        "illuminate/support": "5.*|6.*|^7.0",
         "symfony/finder": "*"
     },
     "autoload": {
@@ -26,12 +26,12 @@
     },
     "extra": {
         "component": "package",
-        "frameworks": ["Laravel 5.7", "Laravel 5.8", "Laravel 6.0"],
+        "frameworks": ["Laravel 5.7", "Laravel 5.8", "Laravel 6.0", "Laravel 7.0"],
         "laravel": {
             "providers": [
                 "HighSolutions\\TranslationManager\\ManagerServiceProvider",
                 "HighSolutions\\TranslationManager\\TranslationServiceProvider"
-            ]            
+            ]
         }
     },
     "minimum-stability": "stable"
